@@ -13,3 +13,16 @@ if isRaining and isSunny:
 if isRaining or isSunny:
     print("It might be rainy or sunny")
 
+if not isSunny:
+    print("It is Rainy")
+
+# Example:
+ages = [12,18, 39, 7, 2]
+
+for age in ages:
+    isAdult = age > 17;
+    if  not isAdult:
+        print("Being " + str(age) + " does not make you adult")
+
+# Comparision Operators
+
