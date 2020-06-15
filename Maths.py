@@ -73,6 +73,24 @@ import statistics
 
 agesData = [ 10, 14, 16, 18 , 91]
 
+print(statistics.mean(agesData))
+print(statistics.median(agesData))
+print(statistics.mode(agesData))
+print(sorted(agesData))
+
+## Variance (average of squared differences from mean) and Standard Deviation 
+print(statistics.variance(agesData))
+print(statistics.stdev(agesData))
+print(math.sqrt(statistics.variance(agesData)))
+
+#
+
+
+
+
+
+
+
 
 
 
