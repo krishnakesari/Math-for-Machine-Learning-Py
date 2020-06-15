@@ -28,3 +28,37 @@ print(math.factorial(3))
 print(math.sqrt(64))
 
 ## GCD (Greatest common denominator)
+print(math.gcd(52,8))
+print(math.gcd(2, 13))
+
+print(8/52)
+print(2/13) # reduced faction of 8/52
+
+# Degrees and Radians
+print(math.radians(360))
+print(math.pi*2)
+
+print(math.degrees(math.pi*2))
+
+# Python Random
+
+import random
+print(random.random())
+
+decider = random.randrange(2)
+if decider == 0:
+    print("heads")
+else:
+    print("Tails")
+
+print(decider)
+
+
+print("You rolled a " + str(random.randrange(1,7)))
+
+lottery_winners = random.sample(range(100), 5)
+print(lottery_winners)
+
+possible_pets = ["cat", "dog", "fish"]
+print(random.choice(possible_pets))
+
