@@ -24,5 +24,18 @@ for age in ages:
     if  not isAdult:
         print("Being " + str(age) + " does not make you adult")
 
+
+
 # Comparision Operators
+## Greater than, equal to , less than
+print(10 < 75)
+
+if 10 < 75:
+    print("This is bigger")
+
+kitten = 10
+tiger = 76
+if kitten < tiger:
+    print("Tiger is bigger")
+
 
