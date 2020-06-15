@@ -74,7 +74,13 @@ playerOneScore = 10
 playerTwoScore = 20
 print(min(playerOneScore, playerTwoScore))
 print(min(-1, 5, -10))
+print(min("Angela", "Bob"))
 
+print(max(playerOneScore, playerTwoScore))
+print(max(-1, 5, -10))
+print(max("Angela", "Bob"))
+
+# Rounding, absolute value and exponents
 
 
 
