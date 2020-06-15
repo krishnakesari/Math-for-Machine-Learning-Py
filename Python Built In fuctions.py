@@ -114,6 +114,9 @@ print(sorted(kids2))
 
 print(sorted("My favorite mouse is jerry".split(), key=str.upper))
 
+students = [('alice', 'B', 32), ('Kate', 'C', 48)]
+print(sorted(students, key = lambda students:students[1]))
+
 
 
 
