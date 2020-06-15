@@ -118,6 +118,30 @@ students = [('alice', 'B', 32), ('Kate', 'C', 48)]
 print(sorted(students, key = lambda students:students[1]))
 
 
+# Type
+r = range(0,30)
+print(type(r))
+
+## isinstance
+class car:
+    pass
+class truck(car):
+    pass
+
+c = car()
+t = truck()
+
+print(type(c))
+print(type(t))
+print(type(c) == type(t))
+
+print(isinstance(c, car))
+print(isinstance(t, car)) # truck inherits from car
+
+
+
+
+
 
 
 
