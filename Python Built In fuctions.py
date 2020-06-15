@@ -81,6 +81,39 @@ print(max(-1, 5, -10))
 print(max("Angela", "Bob"))
 
 # Rounding, absolute value and exponents
+myscore = 36.6
+print(round(myscore))
+myscore2 = 14.4
+print(round(myscore2))
+
+trip = -1.4
+print(round(trip))
+
+## Average value
+distanceaway = -13
+print(abs(distanceaway))
+
+## Exponents (base, exponent)
+chanceT = 0.5
+inARowT = 3
+print(pow(chanceT, inARowT))
+
+
+# Sorted function - lists, tuples, strings, dictionaries
+pointsInaGame = [0, -10, 15, -2, 1, 12]
+sortedGame = sorted(pointsInaGame)
+print(sortedGame)
+
+print(sorted(pointsInaGame, reverse = True))
+
+kids = ["sue", "Jerry", "Lynda"]
+print(sorted(kids))
+
+kids2 = ["sue", "jerry", "Lynda"]
+print(sorted(kids2))
+
+print(sorted("My favorite mouse is jerry".split(), key=str.upper))
+
 
 
 
