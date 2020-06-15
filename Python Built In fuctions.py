@@ -38,4 +38,21 @@ tiger = 76
 if kitten < tiger:
     print("Tiger is bigger")
 
+mouse = 1
+if mouse < kitten and mouse < tiger:
+    print("mouse is smaller")
+
+
+# calculating length:
+firstName = "Taylor"
+print(len(firstName))
+
+firstName.__len__()
+
+ages = [0,11,43]
+print(len(ages))
+
+i=0
+for i in range(0, len(ages)):
+    print(ages[i])
 
