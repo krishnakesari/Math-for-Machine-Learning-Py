@@ -56,3 +56,12 @@ i=0
 for i in range(0, len(ages)):
     print(ages[i])
 
+candyCollection = {"bob": 10, "mary": 15}
+print(len(candyCollection))
+
+
+# Range function:
+numberedContestants = range(30)
+print(len(numberedContestants))
+for c in list(numberedContestants):
+    print("Contestant " + str(c) + " is here") 
