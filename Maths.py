@@ -67,3 +67,14 @@ possible_pets = ["cat", "dog", "fish"]
 random.shuffle(possible_pets)
 print(possible_pets)
 
+
+# Statistics - Mean, mode, Standard Deviation
+import statistics
+
+agesData = [ 10, 14, 16, 18 , 91]
+
+
+
+
+
+
