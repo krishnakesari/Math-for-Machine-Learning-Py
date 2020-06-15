@@ -65,3 +65,25 @@ numberedContestants = range(30)
 print(len(numberedContestants))
 for c in list(numberedContestants):
     print("Contestant " + str(c) + " is here") 
+
+luckyWinners = range(7,30,5)
+print(list(luckyWinners))
+
+# Minimum and Maximum values
+playerOneScore = 10
+playerTwoScore = 20
+print(min(playerOneScore, playerTwoScore))
+print(min(-1, 5, -10))
+
+
+
+
+
+
+
+
+
+
+
+
+
