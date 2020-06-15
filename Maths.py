@@ -62,3 +62,8 @@ print(lottery_winners)
 possible_pets = ["cat", "dog", "fish"]
 print(random.choice(possible_pets))
 
+
+possible_pets = ["cat", "dog", "fish"]
+random.shuffle(possible_pets)
+print(possible_pets)
+
