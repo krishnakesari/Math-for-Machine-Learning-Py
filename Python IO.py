@@ -50,6 +50,8 @@ myFile.close()
 # Read the file
 myFile = open("scores.txt", "r")
 print("Reading..." + myFile.read(10)) # read only 10 characters
+myFile.seek(0) # Setting a seek point
 print("Reading again" + myFile.read(10))
 
+#
 
