@@ -23,3 +23,9 @@ for arg in arguments:
 print(sum)
 
 
+# input and output
+## Output
+print("Hello")
+## Input
+color = input("what is your favourite color")
+print(color)
