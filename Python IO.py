@@ -53,5 +53,14 @@ print("Reading..." + myFile.read(10)) # read only 10 characters
 myFile.seek(0) # Setting a seek point
 print("Reading again" + myFile.read(10))
 
-#
+# Iterative files
+myFile = open("scores.txt", "r")
+print("my one line: " + myFile.readline())
+myFile.seek(0)
+
+for line in myFile:
+    newHighScore = line.replace("BBB", "PDJ")
+    print(newHighScore)
+
+myFile.close()
 
